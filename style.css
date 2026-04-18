@@ -1,0 +1,106 @@
+        body {
+            font-family: 'Segoe UI', Tahoma;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+
+        header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 48px 16px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 17px;
+            margin-top: 10px;
+            color: #bdc3c7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 62px 16px;
+        }
+
+        .sobre {
+            background: #ffffff;
+            padding: 32px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 32px;
+        }
+
+        .sobre h2 {
+            margin-top: 0;
+            color: #2c3e50;
+
+        }
+
+        .projetos h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .grid-projetos {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .projeto-card {
+            background: #ffffff;
+            padding: 26px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid #3498db;
+            transition: transform 0.2s ease;
+        }
+
+        .projeto-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .projeto-card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .projeto-card p {
+            color: #555;
+        }
+
+
+
+        .link-projeto {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .link-projeto:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 32px;
+        }
