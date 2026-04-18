@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Horária dsm1</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma;
+            background-color: #f8f9fa;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .tabela-container {
+            width: 100%;
+            max-width: 1200px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #d1d5db;
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        .horario {
+            font-weight: bold;
+            background-color: #f3f4f6;
+            white-space: nowrap;
+            width: 120px;
+        }
+
+        .disciplina {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+            color: #111827;
+        }
+
+        .professor {
+            font-size: 14px;
+            color: #4b5563;
+        }
+
+        tbody tr:hover {
+            background-color: #f9fafb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="tabela-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Segunda-feira</th>
+                    <th>Terça-feira</th>
+                    <th>Quarta-feira</th>
+                    <th>Quinta-feira</th>
+                    <th>Sexta-feira</th>
+                    <th>Sábado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="horario">8:00 - 9:40</td>
+
+                    <td rowspan="2">
+                        <span class="disciplina">Sistemas Operacionais e Redes de Computadores</span>
+                        <span class="professor">Edson Colalto Junior</span>
+                    </td>
+                    <td rowspan="2">
+                        <span class="disciplina">Modelagem de Banco de Dados</span>
+                        <span class="professor">Wellington Bastos</span>
+                    </td>
+                    <td rowspan="2">
+                        <span class="disciplina">Design Digital</span>
+                        <span class="professor">Ivo Branquinho</span>
+                    </td>
+                    <td rowspan="2">
+                        <span class="disciplina">Algoritmo e Lógica de Programação</span>
+                        <span class="professor">Sirley Addão</span>
+                    </td>
+                    <td rowspan="2">
+                        <span class="disciplina">Engenharia de Software I</span>
+                        <span class="professor">Danillo Rocha</span>
+                    </td>
+                    <td rowspan="2">
+                        <span class="disciplina">Desenvolvimento Web I</span>
+                        <span class="professor">Lucas Garcia</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="horario">9:50 - 11:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
